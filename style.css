@@ -1,0 +1,343 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Source Sans Pro;
+}
+
+@media (max-width:425px) {
+    body header{
+        display: flex;
+        width: 100vw;
+        height: 85px;
+        flex-direction: column;
+        padding: 7px 0px 15px 0px;
+    }
+    header .container-imagem-menu-topo img{
+        height: 60px;
+        padding-top: 10px
+    }
+    header .container-nav-topo{
+        border-top: 1px solid #00000029;
+        padding-top: 5px;
+    }
+    header .container-nav-topo nav ul li{
+        padding: 0px 25px;
+    }
+    header .container-nav-topo nav ul li a{
+        text-decoration: none;
+        font-size: large;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+    main .container-imagem-recepcao .texto-logo{
+        position: absolute;
+        top: 135px;
+        left: 8px;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 31px;
+        font-weight: 300;
+        line-height: 40px;
+    }
+    main .container-imagem-recepcao .imagem-clinica{
+        background-image: url('assets/recepcao2.jpg');
+    }
+    main .container-sobre-a-clinica #sobre{
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 37px;
+    }
+    main .container-sobre-a-clinica #sobre p{
+        width: 89%;
+        line-height: 27px;
+        font-size: 20px;
+    }
+    main .container-imagem-medico .div-imagem-medico img{
+        display: none;
+    }
+    main .container-descriçao-medico h3{
+        font-size: 21px;
+        font-weight: 500;
+    }
+    main .container-descriçao-medico ul{
+        margin-left: 23px;
+    }
+    main .container-especialidades-medicas .textos-especialidades-medicas{
+        width: 375px;
+    }
+    main #especialidades .textos-especialidades-medicas h2 {
+        font-size: 20px;
+        padding-bottom: 6px;
+    }
+    main .container-especialidades-medicas .textos-especialidades-medicas .paragrafo-menor{
+        font-size: 18px;
+        width: 100%;
+        padding-top: 0px;
+    }
+    main .container-especialidades-medicas .container-imagem-especialidades{
+        justify-content: center;
+    }
+    main .container-contato .secao-contatos p{
+        width: 88%;
+    }
+    .container-contato .secao-contatos iframe{
+        width: 98%;
+    }
+}
+@media (max-width:768px){
+    body header{
+        display: flex;
+        width: 100vw;
+        height: 85px;
+        flex-direction: column;
+        padding: 7px 0px 15px 0px;
+    }
+    header .container-imagem-menu-topo img{
+        height: 60px;
+        padding-top: 10px
+    }
+    header .container-nav-topo{
+        border-top: 1px solid #00000029;
+        padding-top: 5px;
+    }
+    header .container-nav-topo nav ul li{
+        padding: 0px 25px;
+    }
+    header .container-nav-topo nav ul li a{
+        text-decoration: none;
+        font-size: large;
+        color: #fff;
+        letter-spacing: 1px;
+    }
+    main .container-imagem-recepcao .texto-logo{
+        position: absolute;
+        top: 135px;
+        left: 8px;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 31px;
+        font-weight: 300;
+        line-height: 40px;
+    }
+    main .container-imagem-recepcao .imagem-clinica{
+        background-image: url('assets/recepcao2.jpg');
+    }
+    main .container-sobre-a-clinica #sobre{
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 37px;
+    }
+    main .container-sobre-a-clinica #sobre p{
+        width: 89%;
+        line-height: 27px;
+        font-size: 20px;
+    }
+    main .container-imagem-medico .div-imagem-medico img{
+        display: none;
+    }
+    main .container-descriçao-medico h3{
+        font-size: 21px;
+        font-weight: 500;
+    }
+    main .container-descriçao-medico ul{
+        margin-left: 23px;
+    }
+    main .container-especialidades-medicas .textos-especialidades-medicas{
+        width: 375px;
+    }
+    main #especialidades .textos-especialidades-medicas h2 {
+        font-size: 20px;
+        padding-bottom: 6px;
+    }
+    main .container-especialidades-medicas .textos-especialidades-medicas .paragrafo-menor{
+        font-size: 18px;
+        width: 100%;
+        padding-top: 0px;
+    }
+    main .container-especialidades-medicas .container-imagem-especialidades{
+        justify-content: center;
+    }
+    main .container-contato .secao-contatos p{
+        width: 88%;
+    }
+    .container-contato .secao-contatos iframe{
+        width: 98%;
+    }
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-around;
+    background-color: #01cfd9;
+    align-items: center;
+}
+header .container-nav-topo nav ul{
+    display: flex;
+    list-style: none;
+}
+header .container-nav-topo nav ul li{
+    padding: 0px 25px;
+}
+header .container-nav-topo nav ul li a{
+    text-decoration: none;
+    font-size: large;
+    color: #fff;
+    letter-spacing: 1px;
+}
+header .container-nav-topo nav ul li a:hover{
+    color: #000000cb;
+}
+main .container-imagem-recepcao{
+    width:100%;
+    height: 290px;
+    position: relative;
+}
+main .container-imagem-recepcao h1{
+    position: absolute;
+    top: 80px;
+    left: 108px;
+    text-transform: uppercase;
+    line-height: 53px;
+    color: #fff;
+    font-size: 2.8em;
+    font-weight: 300;
+}
+main .container-imagem-recepcao .imagem-clinica{
+    width: 100%;
+    height: 290px;
+    background-image: url(assets/recepcao.png);
+    background-position: center;
+    background-size: cover;
+}
+main .container-sobre-a-clinica ,.container-especialidades-medicas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+main .container-sobre-a-clinica .sobre-a-clinica{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 20px;
+}
+main .container-sobre-a-clinica .sobre-a-clinica h2, h2{
+    font-size: 1.5em;
+    font-weight: 600;
+    padding-bottom: 18px;
+}
+main .container-sobre-a-clinica .sobre-a-clinica p{
+    width: 64%;
+    margin: auto;
+}
+main .container-imagem-medico{
+    display: flex;
+    align-items: end;
+    text-align: left;
+}
+main .container-imagem-medico .div-imagem-medico{
+    display: flex;
+    margin-right: 25px;
+}
+main .container-descriçao-medico h3{
+    padding-bottom: 5px;
+}
+main .container-descriçao-medico ul li{
+    padding: 5px 0px;
+}
+main .container-especialidades-medicas{
+    margin-top: 40px;
+}
+main .container-especialidades-medicas .textos-especialidades-medicas{
+    margin-top: 7px;
+    margin-bottom: 40px;
+}
+main .container-especialidades-medicas .textos-especialidades-medicas p, p{
+    width: 780px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+main .container-especialidades-medicas .container-imagem-especialidades{
+    display: flex;
+    flex-wrap: wrap;
+}
+main .container-especialidades-medicas .container-imagem-especialidades figure{
+    display: flex;
+    width: auto;
+    height:192px;
+    box-shadow: 0px 1px 9px #000;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 13px;
+}
+main .container-especialidades-medicas .container-imagem-especialidades figure img{
+    width: 227px;
+    height: auto;
+}
+main .container-especialidades-medicas .botao-horarios{
+    padding: 10px;
+    background-color: #01cfd9;
+    margin-top: 15px;  
+}
+main .container-especialidades-medicas .botao-horarios a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 500;
+}
+main .container-especialidades-medicas .botao-horarios a:hover{
+    color: #000;
+}
+.container-contato .secao-contatos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+.container-contato .secao-contatos a{
+    color:#000;
+    text-decoration: none;
+}
+.container-contato .secao-contatos a:hover{
+    color: rgba(29, 27, 27, 0.747);
+}
+.container-contato .secao-contatos p{
+    font-size: large;
+}
+.container-contato .secao-contatos iframe{
+    border: 0;
+    margin-top: 35px;
+}
+footer {
+    display: flex;
+    background: #1a661a;
+    justify-content: center;
+    margin-top: 35px;
+    padding-bottom:30px;
+}
+footer .container-roda-pe{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+footer .container-roda-pe figure{
+    width: 100%;
+    height: 70px;
+}
+footer .container-roda-pe p{
+    width: 100%;
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+footer .container-roda-pe a{
+    color: #fff;
+    text-decoration: none;
+}
+footer .container-roda-pe a:hover{
+    color: #000;
+    font-weight: 600;
+}
