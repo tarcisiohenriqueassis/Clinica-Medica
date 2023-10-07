@@ -42,11 +42,11 @@
         font-size: 16px;
         margin: auto;
     }
-    main #div-tabela{
-        width: 400PX;
+     main #div-tabela{
+        width: 355PX;
         height: 227px;
         margin: 15px auto;
-        font-size: 14px;
+        font-size: 12px;
         letter-spacing: 0px;
     }
     main #div-tabela td{
