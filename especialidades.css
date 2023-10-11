@@ -209,7 +209,8 @@ footer .container-roda-pe a:hover{
         padding-top: 30px;
     }
     main .article-h1{
-        font-size: 8px;
+        font-size: 11px;
+        padding: 0px;
     }
     main img{
         display: none;
