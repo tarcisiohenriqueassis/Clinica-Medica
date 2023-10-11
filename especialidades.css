@@ -9,14 +9,105 @@
     padding: 0px;
     font-family:Open Sans, sans-serif;
 }
-@media (max-width:425px){
-    .header-topo{
-        display: block;
+@media (max-width:425px){ 
+    body{
         width: 100%;
-        height: 120px;
-        padding-bottom: 20px;
-        text-align: center;
     }
+    .header-topo{
+        width: 100%;
+        height: 105px;
+        align-items: center;
+        flex-direction: column;
+    }
+    header .container-imagem-menu-topo{
+        display: flex;
+        justify-content: center;
+    }
+    .header-topo .container-imagem-menu-topo img{
+        width:70% ;
+    }
+    header .container-nav-topo nav ul{
+        display: flex;
+        height: 35px;
+        align-items: center;
+    }
+    header .container-nav-topo nav ul li{
+        padding: 0px 15px;
+    }
+    header .container-nav-topo nav ul li a {
+        font-size: 12px;
+    }
+    main .menu-nav-especialidades{
+        height: 187px;
+    }
+    main .menu-nav-especialidades nav ul li{
+        padding: 18px 26px;
+        letter-spacing: 3px;
+    }
+    main .article-h1{
+        font-size: 8px;
+    }
+    main img{
+        display: none;
+    }
+    main .container-texto-figure-tabela{
+        margin:15px 0px;
+    }
+    main .container-texto-figure-tabela figure{
+        margin: 0px;
+    }
+    main p{
+        width: 95%;
+        margin: auto;
+    }
+    main .texto-e-tabela{
+        width: 100%;
+    }
+    main .texto-e-tabela .div-tabela {
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin: 30px auto;
+        justify-content: center;
+    }
+    main tr th{
+        padding: 15px 0px 15px 8px;
+    }
+    main table tr td {
+        padding: 15px 7px;
+    }
+    footer{
+        margin: 0px;
+    }
+    footer figure img{
+        width: 40%;
+    }
+}
+@media (max-width:768px){
+    main figure img{
+        display :none;
+    }
+    main figure{
+        margin: 0px;
+    }
+    main .texto-e-tabela{
+        margin: auto;
+    }
+    main .texto-e-tabela .div-tabela{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width:1024px){
+    main figure{
+        margin: 0px;
+    }
+    main img{
+        width: 322px;
+        height: 227px;
+        padding-top: 48px;
+    }
+}
     header .container-nav-topo nav ul {
         justify-content: center;
     }
