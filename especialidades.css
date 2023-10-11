@@ -9,6 +9,166 @@
     padding: 0px;
     font-family:Open Sans, sans-serif;
 }
+
+header{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    justify-content: space-around;
+    background-color: #01cfd9;
+    align-items: center;
+}
+header .container-nav-topo nav ul{
+    display: flex;
+    list-style: none;
+}
+header .container-nav-topo nav ul li{
+    padding: 0px 25px;
+}
+header .container-nav-topo nav ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+header .container-nav-topo nav ul li a:hover{
+    color: #4b4a4aad;
+}
+main .menu-nav-especialidades nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+main .menu-nav-especialidades  nav ul li{
+    padding: 30px 25px;
+    letter-spacing: 1px;
+}
+main .menu-nav-especialidades  nav ul li a{
+    text-decoration: none;
+    color: #000;
+    border-bottom: 1px solid #01cfd9;
+    font-size: 15px;
+}
+main .menu-nav-especialidades nav ul li a:hover{
+    color: rgb(121, 118, 118);
+    border-bottom: 2px solid #01cfd9 ;
+}
+main .article-h1{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin: auto;
+}
+main p{
+    padding-bottom: 18px;
+}
+main .container-texto-figure-tabela{
+    display: flex;
+    margin: 50px auto;
+    justify-content: center;
+}
+main figure{
+    display: flex;
+    align-items: flex-end;
+    padding-top: 81px;
+}
+main img{
+    width: 340px;
+    height: 227px;
+    object-fit: contain;
+}
+main .texto-e-tabela{
+    width: min-content;
+    text-align: center;
+    letter-spacing: 1px;
+}
+main h2{
+    font-size: 24px;
+    padding-bottom: 17px;
+    font-weight: normal
+}
+main .texto-e-tabela .div-tabela{
+    width: 660px;
+    height: auto;
+}
+main .div-tabela table{
+    width: 100%;
+    height: 100%;
+    text-align: justify;
+    border-collapse: collapse;
+    border: 1px solid #c0c0c05e;
+}
+main table thead{
+    background-color: #01cfd9;
+}
+main tr th{
+    color: #fff;
+    padding: 15px 15px;
+}
+main #ortopedia table tbody tr td{
+    padding: 20px 10px;
+}
+main #pediatria table tbody tr td{
+    padding: 21px 10px;
+}
+main #pediatria figure {
+    padding-top: 66px;
+}
+main #geriatria table tbody tr td{
+    padding: 12px 10px;
+}
+main #geriatria figure{
+    display: flex;
+    align-items: flex-end;;
+}
+main #psicologia table tbody tr td{
+    padding:4.2px 10px;
+}
+main #fisioterapia table tbody tr td{
+    padding: 6px 10px;
+}
+main table tbody tr:nth-child(odd){
+    background: #c0c0c09c;
+}
+main .article-fisioterapia img{
+    width: 356px;
+    height: 293px;
+    object-fit: fill;
+}
+footer {
+    display: flex;
+    background: #1a661a;
+    justify-content: center;
+    padding-bottom:30px;
+}
+footer .container-roda-pe{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+footer .container-roda-pe figure{
+    width: 100%;
+    height:auto;
+}
+footer .container-roda-pe p{
+    width: 100%;
+    font-size: 17px;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+footer .container-roda-pe a{
+    color: #fff;
+    text-decoration: none;
+}
+footer .container-roda-pe a:hover{
+    color: #000;
+    font-weight: 600;
+}
+
 @media (max-width:425px){ 
     body{
         width: 100%;
@@ -145,140 +305,6 @@
     }
 
 }
-header{
-    display: flex;
-    width: 100%;
-    height: 60px;
-    justify-content: space-around;
-    background-color: #01cfd9;
-    align-items: center;
-}
-header .container-nav-topo nav ul{
-    display: flex;
-    list-style: none;
-}
-header .container-nav-topo nav ul li{
-    padding: 0px 25px;
-}
-header .container-nav-topo nav ul li a{
-    text-decoration: none;
-    font-size: 14px;
-    color: #fff;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-}
-header .container-nav-topo nav ul li a:hover{
-    color: #4b4a4aad;
-}
-main .menu-nav-especialidades nav ul{
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-main .menu-nav-especialidades  nav ul li{
-    padding: 30px 25px;
-    letter-spacing: 1px;
-}
-main .menu-nav-especialidades  nav ul li a{
-    text-decoration: none;
-    color: #000;
-    border-bottom: 1px solid #01cfd9;
-    font-size: 15px;
-}
-main .menu-nav-especialidades nav ul li a:hover{
-    color: rgb(121, 118, 118);
-    border-bottom: 2px solid #01cfd9 ;
-}
-main .article-h1{
-    display: flex;
-    justify-content: center;
-    font-size: 12px;
-    letter-spacing: 2px;
-}
-main article{
-    padding-top: 3px;
-}
-main .container-texto-figure-tabela{
-    display: flex;
-    margin: 50px 0px;
-    justify-content: center;
-}
-main figure{
-    padding-top: 84px;
-}
-main img{
-    width: 340px;
-    height: 227px;
-    object-fit: contain;
-    padding-top: 30px;
-}
-main .texto-e-tabela{
-    width: 582px;
-    text-align: center;
-    letter-spacing: 1px;
-}
-main h2{
-    font-size: 24px;
-    padding-bottom: 17px;
-    font-weight: normal
-}
-main .texto-e-tabela .div-tabela{
-    width: 660px;
-    height: 227px;
-    margin-top: 15px;
-}
-main .div-tabela table{
-    width: 100%;
-    height: 100%;
-    text-align: justify;
-    border-collapse: collapse;
-}
-main table thead{
-    background-color: #01cfd9;
-}
-main tr th{
-    color: #fff;
-    padding: 15px 15px;
-}
-main table tbody tr td{
-    padding: 15px 15px;
-}
-main table tbody tr:nth-child(odd){
-    background: #c0c0c09c;
-}
-main .article-fisioterapia img{
-    width: 356px;
-    height: 293px;
-    object-fit: fill;
-}
-footer {
-    display: flex;
-    background: #1a661a;
-    justify-content: center;
-    margin-top: 35px;
-    padding-bottom:30px;
-}
-footer .container-roda-pe{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-}
-footer .container-roda-pe figure{
-    width: 100%;
-    height: 70px;
-}
-footer .container-roda-pe p{
-    width: 100%;
-    font-size: 17px;
-    color: #fff;
-    letter-spacing: 1px;
-}
-footer .container-roda-pe a{
-    color: #fff;
-    text-decoration: none;
-}
-footer .container-roda-pe a:hover{
-    color: #000;
-    font-weight: 600;
-}
+
+
+
