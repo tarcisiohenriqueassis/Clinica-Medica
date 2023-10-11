@@ -178,6 +178,7 @@ footer .container-roda-pe a:hover{
         height: 105px;
         align-items: center;
         flex-direction: column;
+        background-color: #01cfd9;
     }
     header .container-imagem-menu-topo{
         display: flex;
