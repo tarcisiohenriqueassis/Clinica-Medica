@@ -91,7 +91,7 @@ main h2{
     font-weight: normal
 }
 main .texto-e-tabela #div-tabela{
-    width: 660px;
+    width: 100%;
     height: auto;
 }
 main .div-tabela table{
