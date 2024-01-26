@@ -110,15 +110,18 @@ main tr th{
     font-size: 20px;
 }
 main #ortopedia table tbody tr td{
+    font-size: 18px;
     padding: 20px 10px;
 }
 main #pediatria table tbody tr td{
+   font-size: 18px;
     padding: 21px 10px;
 }
 main #pediatria figure {
     padding-top: 66px;
 }
 main #geriatria table tbody tr td{
+   font-size: 18px;
     padding: 12px 10px;
 }
 main #geriatria figure{
@@ -130,6 +133,7 @@ main #psicologia table tbody tr td{
     font-size: 18px;
 }
 main #fisioterapia table tbody tr td{
+    font-size: 18px;
     padding: 6px 10px;
 }
 main table tbody tr:nth-child(odd){
