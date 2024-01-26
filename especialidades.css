@@ -107,6 +107,7 @@ main table thead{
 main tr th{
     color: #fff;
     padding: 15px 15px;
+    font-size: 20px;
 }
 main #ortopedia table tbody tr td{
     padding: 20px 10px;
@@ -126,6 +127,7 @@ main #geriatria figure{
 }
 main #psicologia table tbody tr td{
     padding:4.2px 10px;
+    font-size: 18px;
 }
 main #fisioterapia table tbody tr td{
     padding: 6px 10px;
@@ -294,8 +296,8 @@ footer .container-roda-pe a:hover{
         padding-top:0px;    
     }
     main p{
-        width:330px;
-        font-size: 16px;
+       width: 95%;
+       font-size: 19px;
         margin: auto;
     }
      main #div-tabela{
