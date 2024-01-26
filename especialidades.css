@@ -90,7 +90,7 @@ main h2{
     padding-bottom: 17px;
     font-weight: normal
 }
-main .texto-e-tabela .div-tabela{
+main .texto-e-tabela #div-tabela{
     width: 660px;
     height: auto;
 }
