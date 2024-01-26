@@ -81,7 +81,7 @@ main img{
     object-fit: contain;
 }
 main .texto-e-tabela{
-    width: min-content;
+    width: 80%;
     text-align: center;
     letter-spacing: 1px;
 }
@@ -301,7 +301,7 @@ footer .container-roda-pe a:hover{
         margin: auto;
     }
      main #div-tabela{
-        width: 355PX;
+        width: 100%;
         height: 227px;
         margin: 15px auto;
         font-size: 12px;
